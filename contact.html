@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Get Your Dumps | GetYourCert</title>
+    <meta name="description" content="Contact Get premium dumps for your IT certifications. Get expert advice on Microsoft, AWS, Salesforce, Azure, and Scrum certifications.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-certificate"></i>
+                <span>GetYourCert</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="certifications.html" class="nav-link">Certifications</a>
+                <a href="testimonials.html" class="nav-link">Success Stories</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p> <span class="gradient-text"> Get in touch for a free consultation and start your certification journey today with GetCertify </span> </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Get Your Dumps</h2>
+                    <p style="margin-top: 4px; color:#6b7280; font-size: 0.95rem;">
+                        NOTE: Please send a WhatsApp message for better response.
+                    </p>
+                    <p>Fill out the form below and our certification experts will get back to you within 24 hours with personalized guidance.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required inputmode="numeric" placeholder="Digits only, minimum 10 digits">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="certification">Certification Interest</label>
+                            <select id="certification" name="certification">
+                                <option value="">Select Certification</option>
+                                <optgroup label="Microsoft">
+                                    <option value="az-900">AZ-900: Azure Fundamentals</option>
+                                    <option value="az-104">AZ-104: Azure Administrator</option>
+                                    <option value="az-204">AZ-204: Azure Developer</option>
+                                    <option value="az-305">AZ-305: Azure Solutions Architect</option>
+                                    <option value="ms-900">MS-900: Microsoft 365 Fundamentals</option>
+                                    <option value="ms-500">MS-500: Microsoft 365 Security Administrator</option>
+                                </optgroup>
+                                <optgroup label="AWS">
+                                    <option value="clf-c02">CLF-C02: AWS Cloud Practitioner</option>
+                                    <option value="saa-c03">SAA-C03: AWS Solutions Architect Associate</option>
+                                    <option value="dva-c02">DVA-C02: AWS Developer Associate</option>
+                                    <option value="soa-c02">SOA-C02: AWS SysOps Administrator Associate</option>
+                                    <option value="sap-c02">SAP-C02: AWS Solutions Architect Professional</option>
+                                </optgroup>
+                                <optgroup label="Salesforce">
+                                    <option value="salesforce-admin">Salesforce Administrator</option>
+                                    <option value="platform-dev-1">Platform Developer I</option>
+                                    <option value="platform-dev-2">Platform Developer II</option>
+                                    <option value="sales-cloud">Sales Cloud Consultant</option>
+                                </optgroup>
+                                <optgroup label="Azure">
+                                    <option value="azure-fundamentals">Azure Fundamentals</option>
+                                    <option value="azure-admin">Azure Administrator</option>
+                                    <option value="azure-developer">Azure Developer</option>
+                                    <option value="azure-architect">Azure Solutions Architect</option>
+                                </optgroup>
+                                <optgroup label="Scrum & Agile">
+                                    <option value="csm">Certified ScrumMaster (CSM)</option>
+                                    <option value="psm">Professional Scrum Master (PSM)</option>
+                                    <option value="cspo">Certified Scrum Product Owner (CSPO)</option>
+                                    <option value="safe">SAFe Agilist</option>
+                                </optgroup>
+                                <optgroup label="Other">
+                                    <option value="comptia-a">CompTIA A+</option>
+                                    <option value="comptia-network">CompTIA Network+</option>
+                                    <option value="comptia-security">CompTIA Security+</option>
+                                    <option value="google-cloud">Google Cloud Professional</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Questions or Requirements</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your specific needs, questions, or any other requirements..."></textarea>
+                        </div>
+                        
+                        <div style="display:flex; gap:12px; flex-wrap: wrap; align-items: center;">
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <i class="fas fa-paper-plane"></i>
+                                Register & GetYourDumps
+                            </button>
+                            <button type="button" id="googleFormButton" class="btn btn-outline btn-large" aria-label="Submit via Google Form">
+                                <i class="fas fa-external-link-alt"></i>
+                                Click here to Submit
+                            </button>
+                            
+                            <button type="button" id="whatsappButton" class="btn btn-outline btn-large" aria-label="Contact on WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                                Send on WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Get in Touch</h3>
+                        <p>Our certification experts are here to help you choose the right path and succeed in your IT career.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Call Us</h4>
+                                    <p>+91 82470 14778</p>
+                                    <span>Available 24/7</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Email Us</h4>
+                                    <p>info@GetYourCert.com</p>
+                                    <span>Response within 2 hours</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>WhatsApp</h4>
+                                    <p>+91 82470 14778</p>
+                                    <span>Quick responses</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Live Chat</h4>
+                                    <p>Available on website</p>
+                                    <span>Instant support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to get certified?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most certifications take 2-6 weeks depending on your experience level and the complexity of the certification. Our study materials and expert guidance help accelerate your learning process.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's included in your certification packages?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our packages include comprehensive study dumps, practice exams, study guides, video tutorials, and 24/7 expert support. We also provide exam vouchers and retake guarantees.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer money-back guarantees?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a 100% success guarantee. If you don't pass your exam on the first attempt, we provide free retake materials and support until you succeed.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I get support after purchasing?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We provide 24/7 support through phone, email, WhatsApp, and live chat. Our certified experts are always available to help you with any questions or challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Certification Journey?</h2>
+		<p> <span class="gradient-text"> Join thousands of IT professionals who have already achieved their dream certifications with GetYourCert. </span> </p>
+                <div class="cta-buttons">
+                    <a href="#contactForm" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        Register & GetYourDumps
+                    </a>
+                    <a href="tel:+91 82470 14778" class="btn btn-outline btn-large">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-certificate"></i>
+                        <span>GetYourCert</span>
+                    </div>
+                    <p>Your trusted partner for IT certification success. Premium vouchers and comprehensive study material dumps.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="testimonials.html">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Popular Certs</h3>
+                    <ul>
+                        <li><a href="certifications.html#microsoft">Microsoft</a></li>
+                        <li><a href="certifications.html#aws">AWS</a></li>
+                        <li><a href="certifications.html#salesforce">Salesforce</a></li>
+                        <li><a href="certifications.html#azure">Azure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> info@GetYourCert.com</p>
+                    <p><i class="fas fa-phone"></i> +91 82470 14778</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Support</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GetYourCert. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

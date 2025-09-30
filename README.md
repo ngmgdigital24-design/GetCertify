@@ -1,4 +1,4 @@
-# IT Certification Website - CertPro
+# IT Certification Website - GetYourCert
 
 A modern, responsive website for IT certification services including Microsoft, AWS, Salesforce, Azure, Scrum, and other popular IT certifications. Built with HTML5, CSS3, and JavaScript for optimal performance and user experience.
 
@@ -60,7 +60,7 @@ The website uses a modern color scheme that can be easily customized:
 
 ### Company Information
 Update the following in all HTML files:
-- Company name: "CertPro" → Your company name
+- Company name: "GetYourCert" → Your company name
 - Contact details: Phone, email, address
 - Social media links
 - Logo and branding elements
@@ -283,3 +283,4 @@ Regular maintenance tasks:
 **Built with ❤️ for IT certification success!**
 
 Transform your IT career with our comprehensive certification solutions. Get started today!
+
